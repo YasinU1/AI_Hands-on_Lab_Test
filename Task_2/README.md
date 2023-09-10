@@ -17,11 +17,13 @@ Visualisation of Feature Importance: By visualising which features contribute th
 
 Model Comparison:
 Old Model (Model 1):
-RMSE: 4537.93
-MAE: 3281.50
+Root Mean Squared Error (RMSE): 4537.93
+Mean Absolute Error (MAE): : 3281.50
 New Model (Model 2):
-RMSE: 3239.28
-MAE: 2396.36
+Root Mean Squared Error (RMSE): 3265.65
+Mean Absolute Error (MAE): : 2315.96
+
+
 In comparison to Model 1, Model 2 has a lower RMSE and MAE. As a result of these metrics, Model 2 outperforms Model 1 in terms of prediction accuracy.
 
 #Recommendations for Future Work:
