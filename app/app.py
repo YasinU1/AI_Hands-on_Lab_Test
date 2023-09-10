@@ -25,7 +25,7 @@ def make_prediction():
     df_input = pd.DataFrame(data)
 
     # One-hot encode categorical features
-    encoded_features = encoder.transform(df_input[['brand', 'fuel', 'gearbox', 'year']]).toarray()
+    encoded_features = encoder.transform(df_input[['brand', 'fuel', 'gearbox']]).toarray()
     df_encoded_features = pd.DataFrame(encoded_features)
 
     # Calculate age from the year
