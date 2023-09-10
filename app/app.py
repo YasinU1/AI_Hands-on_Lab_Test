@@ -17,6 +17,8 @@ encoder = load('encoder.joblib')
 def serve_homepage():
     """Serve the main homepage."""
     return render_template('index.html')
+
+
 @app.route('/predict', methods=['POST', 'OPTIONS'])
 @cross_origin()
 def make_prediction():

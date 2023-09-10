@@ -199,7 +199,7 @@ MAIN CONTENT STYLES
 */
 
 #main > header {
-    padding: 12em 0 10em 0;
+    padding: 10em 0 8em 0;
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ MAIN CONTENT STYLES
 }
 
 #main > header h2 {
-    font-size: 2.25em;
+    font-size: 1.25em;
     margin: 0 0 0.5em 0;
     padding: 0;
 }
