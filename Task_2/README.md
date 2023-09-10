@@ -1,18 +1,46 @@
 # AI_Hands-on_Lab_Test
 # Task 2
-1. Feature Engineering and Selection:
-    • Car Age Calculation: Determining the age of the car allows us to better understand its depreciation, which is critical for price prediction.
-    • Mileage Per Year: This feature provides information about the car's usage intensity. A car that has a high mileage in a short period of time may depreciate faster.
-2. Data Augmentation: Enhancing the dataset by creating synthetic variations can help improve model robustness and generalization.
-3. Recursive Feature Elimination (RFECV): Recursive Feature Elimination (RFECV): This method aids in selecting the most relevant features while preventing noise from distracting the model.
-4. Cross-validation:
-    • Stratified K-Fold : This ensures that each fold is a good representation of the entire dataset, resulting in a more robust model evaluation.
-5. Hyperparameter Tuning:
-    • Using Bayesian Optimisation: It is a more efficient hyperparameter tuning method that finds the best parameters faster than traditional grid or random search methods.
-6. Ensemble Methods:
-    • Gradient Boosting with Early Stopping: Gradient Boosting constructs trees sequentially, correcting errors from previous trees. By halting training when performance reaches a plateau, early stopping ensures that the model does not overfit.
-7. Model Evaluation: RMSE and MAE Metrics: These metrics provide a quantitative measure of model errors, which aids in understanding the accuracy of prediction.
-Visualisation of Feature Importance: By visualising which features contribute the most, we can focus on gathering quality data for those features in the future.
+# Feature Engineering and Selection:
+
+1. **Car Age Calculation:**
+   - Determining the age of the car allows us to better understand its depreciation, which is critical for price prediction.
+
+2. **Mileage Per Year:**
+   - This feature provides information about the car's usage intensity. A car that has a high mileage in a short period of time may depreciate faster.
+
+# Data Augmentation:
+
+3. **Synthetic Data Generation:**
+   - Enhancing the dataset by creating synthetic variations can help improve model robustness and generalization.
+
+# Feature Selection:
+
+4. **Recursive Feature Elimination (RFECV):**
+   - RFECV aids in selecting the most relevant features while preventing noise from distracting the model.
+
+# Cross-validation:
+
+5. **Stratified K-Fold:**
+   - This ensures that each fold is a good representation of the entire dataset, resulting in a more robust model evaluation.
+
+# Hyperparameter Tuning:
+
+6. **Bayesian Optimization:**
+   - Using Bayesian Optimization is a more efficient hyperparameter tuning method that finds the best parameters faster than traditional grid or random search methods.
+
+# Ensemble Methods:
+
+7. **Gradient Boosting with Early Stopping:**
+   - Gradient Boosting constructs trees sequentially, correcting errors from previous trees. By halting training when performance reaches a plateau, early stopping ensures that the model does not overfit.
+
+# Model Evaluation:
+
+8. **RMSE and MAE Metrics:**
+   - These metrics provide a quantitative measure of model errors, aiding in understanding the accuracy of predictions.
+
+9. **Visualization of Feature Importance:**
+   - By visualizing which features contribute the most, we can focus on gathering quality data for those features in the future.
+
 
 # Model Comparison:
 
