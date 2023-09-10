@@ -1,5 +1,6 @@
 # AI_Hands-on_Lab_Test
 # Task 2
+Improvements to the original model are below, implemented in the task2.ipynb notebook
 1. Feature Engineering and Selection:
     - Car Age Calculation: Determining the age of the car allows us to better understand its depreciation, which is critical for price prediction.
     - Mileage Per Year: This feature provides information about the car's usage intensity. A car that has a high mileage in a short period of time may depreciate faster.
